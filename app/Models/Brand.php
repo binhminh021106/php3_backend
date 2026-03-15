@@ -17,6 +17,7 @@ class Brand extends Model
         'image',
         'description',
         'status',
+        'order_number'
     ];
 
     protected $casts = [
